@@ -324,7 +324,7 @@ const achievementSection = {
 
     {
       title: "Python Master",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Completed Certifcation from Programiz for mastering Python3",
       image: require("./assets/images/Become a Python Master_page-0001.jpg"),
       imageAlt: "python master atit",
       footerLink: [
