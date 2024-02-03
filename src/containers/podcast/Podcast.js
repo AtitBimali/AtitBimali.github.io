@@ -40,8 +40,8 @@ export default function Podcast() {
                 <iframe
                   className="podcast"
                   src={podcastLink}
-                  frameBorder="0"
-                  scrolling="no"
+                  frameBorder=""
+                  scrolling="yes"
                   title="Podcast"
                 ></iframe>
               </div>
