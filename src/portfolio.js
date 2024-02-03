@@ -51,11 +51,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I am a Python developer with DevSecOps knowledge. I work on backend, microservices, APIs, and bring those applications to life.",
+  subTitle:
+    "I am a Python developer with DevSecOps knowledge. I work on backend, microservices, APIs, and bring those applications to life.",
   skills: [
-    emoji("⚡ Develop secure and scalable backends, APIs, and seamlessly integrate with frontend and other microservices."),
-    emoji("⚡ Create robust CI/CD pipelines for efficient version control and continuous delivery of services."),
-    emoji("⚡ Proficiently manage and monitor bare metal infrastructure and cloud servers.")
+    emoji(
+      "⚡ Develop secure and scalable backends, APIs, and seamlessly integrate with frontend and other microservices."
+    ),
+    emoji(
+      "⚡ Create robust CI/CD pipelines for efficient version control and continuous delivery of services."
+    ),
+    emoji(
+      "⚡ Proficiently manage and monitor bare metal infrastructure and cloud servers."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -105,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "git",
       fontAwesomeClassname: "fab fa-git-alt"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -120,14 +127,14 @@ const educationInfo = {
       logo: require("./assets/images/new_summit_logo.jpg"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "March 2021 - April 2025",
-      desc: "New Summit College, Shantinagar, Kathmandu",
+      desc: "New Summit College, Shantinagar, Kathmandu"
     },
     {
       schoolName: "Arniko College",
       logo: require("./assets/images/arniko.jpg"),
       subHeader: "+2 Science",
       duration: "August 2018 - December 2020",
-      desc: "Biratnagar, Morang",
+      desc: "Biratnagar, Morang"
     }
   ]
 };
@@ -188,8 +195,8 @@ const workExperiences = {
       company: "Fiverr, Upwork",
       companylogo: require("./assets/images/upwork.png"),
       date: "June 2020 – 2023",
-      desc: "Customized, scalable and secure web application design and development.",
-    },
+      desc: "Customized, scalable and secure web application design and development."
+    }
   ]
 };
 
@@ -250,14 +257,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications & Award Letters",
+  subtitle: "Achievements, Certifications & Award Letters",
 
   achievementsCards: [
     {
       title: "Microsoft Student Ambassador",
-      subtitle:
-        "For completion of Microsoft Learn AI Skills Challenge.",
+      subtitle: "For completion of Microsoft Learn AI Skills Challenge.",
       image: require("./assets/images/microsoft_student_ambassador.jpg"),
       imageAlt: "Python Basics HackerRank Atit",
       footerLink: [
@@ -269,8 +274,7 @@ const achievementSection = {
     },
     {
       title: "AWS awsome day",
-      subtitle:
-        "Awarded for attending the AWS aswome day online conference",
+      subtitle: "Awarded for attending the AWS aswome day online conference",
       image: require("./assets/images/aws_awsome.png"),
       imageAlt: "Python Basics HackerRank Atit",
       footerLink: [
@@ -282,8 +286,7 @@ const achievementSection = {
     },
     {
       title: "MS AZ-400 ",
-      subtitle:
-        "Manage infrastructure as code using Azure and DSC",
+      subtitle: "Manage infrastructure as code using Azure and DSC",
       image: require("./assets/images/ms.png"),
       imageAlt: "ms Az-400",
       footerLink: [
@@ -295,8 +298,7 @@ const achievementSection = {
     },
     {
       title: "HackerRank Python Basics",
-      subtitle:
-        "Certification for completion of problem solving using Python",
+      subtitle: "Certification for completion of problem solving using Python",
       image: require("./assets/images/HackerRank_PythonBasic.png"),
       imageAlt: "Python Basics HackerRank Atit",
       footerLink: [
@@ -343,8 +345,7 @@ const blogSection = {
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-  ],
+  blogs: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -378,7 +379,6 @@ const podcastSection = {
     "https://open.spotify.com/embed/show/2q5GOLTmNGpHYmrrZ0Ik73?utm_source=generator&theme=0",
 
     "https://open.spotify.com/embed/show/7bVFJvj8A2ZuYVs5lS992b?utm_source=generator"
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
