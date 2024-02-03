@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96cdbb85.css",
-    "main.js": "/static/js/main.d913d2d0.js",
+    "main.js": "/static/js/main.8bf7e925.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,10 +9,10 @@
     "static/media/HackerRank_PythonBasic.png": "/static/media/HackerRank_PythonBasic.0c65ae14e8886d7bd3ea.png",
     "static/media/nepal_sports.png": "/static/media/nepal_sports.11ac326fc35e530bfefc.png",
     "static/media/aws_awsome.png": "/static/media/aws_awsome.83b44bdbdb634f329948.png",
-    "static/media/Become a Python Master_page-0001.jpg": "/static/media/Become a Python Master_page-0001.57e6e1732c7686eb3d0b.jpg",
-    "static/media/Python Beyond Basics_page-0001.jpg": "/static/media/Python Beyond Basics_page-0001.aa854c47bd4ab357381c.jpg",
+    "static/media/Become a Python Master_page-0001.jpg": "/static/media/Become a Python Master_page-0001.e660489b4d376da423ca.jpg",
+    "static/media/Python Beyond Basics_page-0001.jpg": "/static/media/Python Beyond Basics_page-0001.0293a053171035c3eb12.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/microsoft_student_ambassador.jpg": "/static/media/microsoft_student_ambassador.fdfaffa1488d62efb188.jpg",
+    "static/media/microsoft_student_ambassador.jpg": "/static/media/microsoft_student_ambassador.5536047589363f13637c.jpg",
     "static/media/ms.png": "/static/media/ms.2936cbf0bdf490caaac5.png",
     "static/media/DBLegal.png": "/static/media/DBLegal.f6d87083ebb2276f7a2e.png",
     "static/media/new_summit_logo.jpg": "/static/media/new_summit_logo.63f38e2ba7e45bc4a4d9.jpg",
@@ -28,7 +28,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.96cdbb85.css.map": "/static/css/main.96cdbb85.css.map",
-    "main.d913d2d0.js.map": "/static/js/main.d913d2d0.js.map",
+    "main.8bf7e925.js.map": "/static/js/main.8bf7e925.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.96cdbb85.css",
-    "static/js/main.d913d2d0.js"
+    "static/js/main.8bf7e925.js"
   ]
 }
