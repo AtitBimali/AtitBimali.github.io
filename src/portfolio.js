@@ -261,6 +261,18 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "API Security by APIsec University",
+      subtitle: "For completion of, API Security Fundamental, OWASP Top 10 & beyond, API Gateway Best Practives, API Pen Tester Certificates.",
+      image: require("./assets/images/aip_sec.png"),
+      imageAlt: "APISec",
+      footerLink: [
+        {
+          name: "view certificates",
+          url: "https://www.credly.com/users/atit-bimali"
+        }
+      ]
+    },
+    {
       title: "Microsoft Student Ambassador",
       subtitle: "For completion of Microsoft Learn AI Skills Challenge.",
       image: require("./assets/images/microsoft_student_ambassador.jpg"),
