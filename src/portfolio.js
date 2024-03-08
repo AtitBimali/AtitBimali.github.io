@@ -261,18 +261,6 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "API Security by APIsec University",
-      subtitle: "For completion of, API Security Fundamental, OWASP Top 10 & beyond, API Gateway Best Practives, API Pen Tester Certificates.",
-      image: require("./assets/images/aip_sec.png"),
-      imageAlt: "APISec",
-      footerLink: [
-        {
-          name: "view certificates",
-          url: "https://www.credly.com/users/atit-bimali"
-        }
-      ]
-    },
-    {
       title: "Microsoft Student Ambassador",
       subtitle: "For completion of Microsoft Learn AI Skills Challenge.",
       image: require("./assets/images/microsoft_student_ambassador.jpg"),
@@ -308,6 +296,31 @@ const achievementSection = {
         }
       ]
     },
+    {
+      title: "API Security Fundamentals by APIsec University",
+      subtitle: "API Security and Risk Mitigation",
+      image: require("./assets/images/aip_sec.png"),
+      imageAlt: "APISec Fundamentals",
+      footerLink: [
+        {
+          name: "view certificate",
+          url: "https://www.credly.com/badges/8867e327-420c-4bd7-be5e-44c7b5a4ff1a/public_url"
+        }
+      ]
+    },
+    {
+      title: "API Gateway Security Best Practices",
+      subtitle: "Role and best practices of API Gateways in API security",
+      image: require("./assets/images/gateway_best_pracitces.png"),
+      imageAlt: "API Gateway best practices",
+      footerLink: [
+        {
+          name: "view certificate",
+          url: "https://www.credly.com/badges/ef560bd9-5c9d-4996-ad0b-3708c0ca1f02/public_url"
+        }
+      ]
+    },
+    
     {
       title: "HackerRank Python Basics",
       subtitle: "Certification for completion of problem solving using Python",
