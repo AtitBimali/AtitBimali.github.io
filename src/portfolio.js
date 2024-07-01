@@ -320,7 +320,7 @@ const achievementSection = {
         }
       ]
     },
-    
+
     {
       title: "HackerRank Python Basics",
       subtitle: "Certification for completion of problem solving using Python",
