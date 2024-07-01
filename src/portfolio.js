@@ -39,7 +39,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/atit.bimali",
   medium: "https://medium.com/@atitbimali10",
   stackoverflow: "https://stackoverflow.com/users/17767517/atit-bimali",
-  instagram: "https://www.instagram.com/atitbimali/",
+  instagram: "https://www.instagram.com/atit_at_it/",
   twitter: "https://twitter.com/atit_tweets",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -154,7 +154,7 @@ const techStack = {
     },
     {
       Stack: "Security, Networking",
-      progressPercentage: "20%"
+      progressPercentage: "25%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -182,12 +182,12 @@ const workExperiences = {
       company: "Tech Himalaya",
       companylogo: require("./assets/images/techhimalaya.png"),
       date: "2022 – January 2023",
-      desc: "API development using Django Rest Framework",
+      desc: "RESTful API development using Django Rest Framework",
       descBullets: [
         "Git hooks integration",
-        "React and Flutter app integration",
+        "Integration ",
         "Docker Compose and AWS deployment",
-        "API test case writing"
+        "Writing API test cases"
       ]
     },
     {
@@ -215,25 +215,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/logo.png"),
+      image: require("./assets/images/providhy.png"),
       projectName: "Providhy ERP",
-      projectDesc: "Business Management System Saas powered by Django",
+      projectDesc: "Business Management SAAS",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://providhy.com/"
+          url: "https://iam.asiansuppliers.com.np/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/DBLegal.png"),
+      image: require("./assets/images/dblegal.png"),
       projectName: "DBLegal CRM",
       projectDesc: "Customer Relationship Management System",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://dblegal.azurewebsites.net/"
+          url: "https://dblegalcrm.azurewebsites.net/"
         }
       ]
     },
@@ -268,7 +268,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "view certificate",
-          url: "https://drive.google.com/file/d/1_0SWgj9gN1Ad6fMl2fcLG2dJ3P1ph8bv/view?usp=sharing"
+          url: "https://mvp.microsoft.com/studentambassadors/certificate/1b878bdd-93df-463e-92b4-558496f308eb"
         }
       ]
     },
@@ -337,7 +337,7 @@ const achievementSection = {
       title: "Python Beyond Basics",
       subtitle:
         "Certification for completion of python advance concepts like OOP",
-      image: require("./assets/images/Python Beyond Basics_page-0001.jpg"),
+      image: require("./assets/images/Python Beyond Basics_page.jpg"),
       imageAlt: "Python beyond basics atit",
       footerLink: [
         {
@@ -350,7 +350,7 @@ const achievementSection = {
     {
       title: "Python Master",
       subtitle: "Completed Certifcation from Programiz for mastering Python3",
-      image: require("./assets/images/Become a Python Master_page-0001.jpg"),
+      image: require("./assets/images/Become a Python Master.jpg"),
       imageAlt: "python master atit",
       footerLink: [
         {
@@ -403,7 +403,7 @@ const podcastSection = {
   podcast: [
     "https://open.spotify.com/embed/show/2q5GOLTmNGpHYmrrZ0Ik73?utm_source=generator&theme=0",
 
-    "https://open.spotify.com/embed/show/7bVFJvj8A2ZuYVs5lS992b?utm_source=generator"
+    "https://open.spotify.com/embed/episode/552E9TiZVFgJysG8mt207A?utm_source=generator"
   ],
   display: true // Set false to hide this section, defaults to true
 };
