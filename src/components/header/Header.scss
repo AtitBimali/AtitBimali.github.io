@@ -165,18 +165,30 @@
   }
   .header {
     display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
     align-items: center;
     justify-content: space-between;
   }
+  .header .logo {
+    margin-top: 0; /* Align logo properly */
+    white-space: nowrap; /* Prevent logo text wrap */
+  }
   .header .menu {
     max-height: none;
+    display: flex;
+    flex-wrap: nowrap; /* Prevent menu items wrap */
   }
   .header .menu-icon {
     display: none;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
-  .header {
-    font-size: 12px;
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header li a {
+    padding: 15px 10px; /* Reduce padding on smaller screens */
+    font-size: 14px;
+  }
+  .header .logo {
+    font-size: 1.2rem; /* Slightly smaller logo */
   }
 }

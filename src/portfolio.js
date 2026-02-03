@@ -23,7 +23,7 @@ const greeting = {
   username: "Atit Bimali",
   title: "Hi all, I'm Atit",
   subTitle: emoji(
-    "Passionate Python Developer 🚀 & DevSecOps enthusiast ♾ with extensive experience building robust web applications and APIs using Django & Django Rest Framework. Proficient in CI/CD pipelines, containerization, web servers, MySQL, and cloud platforms such as AWS and Azure."
+    "Skilled Python Developer 🚀 & DevSecOps enthusiast ♾ with experience in microservices, CI/CD pipelines, and cloud deployments. I aim to use my skills in backend development, containerization, and monitoring to contribute to innovative projects and help ensure secure and efficient application performance."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1DV-bhL0wNNMPG9pGWoEooxl3qFMxfHKa/view?usp=sharing", // Set to empty to hide the button
@@ -52,16 +52,19 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "I am a Python developer with DevSecOps knowledge. I work on backend, microservices, APIs, and bring those applications to life.",
+    "Python Developer & DevSecOps enthusiast specializing in backend development, microservices architecture, CI/CD automation, and cloud infrastructure management.",
   skills: [
     emoji(
-      "⚡ Develop secure and scalable backends, APIs, and seamlessly integrate with frontend and other microservices."
+      "⚡ Develop secure and scalable backends, REST APIs, and microservices with seamless integration capabilities."
     ),
     emoji(
-      "⚡ Create robust CI/CD pipelines for efficient version control and continuous delivery of services."
+      "⚡ Build and maintain CI/CD pipelines using Docker, Jenkins, GitLab, and Argo CD for continuous delivery."
     ),
     emoji(
-      "⚡ Proficiently manage and monitor bare metal infrastructure and cloud servers."
+      "⚡ Implement monitoring solutions with Grafana, Prometheus, and Netdata for performance optimization."
+    ),
+    emoji(
+      "⚡ Apply security best practices including OWASP Top 10, vulnerability assessments, and code quality assurance."
     )
   ],
 
@@ -145,7 +148,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Django, Rest Framework", //Insert stack or technology you have experience in
+      Stack: "Software Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -166,36 +169,83 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Python Developer & Deployment Engineer",
-      company: "Spices Research",
-      companylogo: require("./assets/images/spices.jpg"),
-      date: "September 2022 - PRESENT",
-      desc: "Develop, Deploy and Maintain Mircoservices.",
+      role: "Founding Engineer",
+      company: "Ally Solutions",
+      companylogo: require("./assets/images/Ally Logo.png"),
+      date: "January 2025 – Present",
+      desc: "Building AI-powered voice and chat applications with Python and Next.js.",
       descBullets: [
-        "Handle end-to-end development and operations of Python and Node.js applications.",
-        "Implement CI/CD pipelines, manage MySQL servers, and orchestrate containerization on bare metal infrastructure.",
-        "Regular collaboration with industry experts to optimize development and production processes."
+        "Integrated Azure Communication Services and Amazon Connect for real-time voice and chat features.",
+        "Connected AI agents with CRM systems, booking platforms, and ticketing systems.",
+        "Managing cloud infrastructure and deployments on Azure."
       ]
     },
     {
-      role: "Freelance Python Developer",
-      company: "Tech Himalaya",
+      role: "LLM Trainer (Contract)",
+      company: "Turing",
+      companylogo: require("./assets/images/turing logo.avif"),
+      date: "September 2025 – November 2025",
+      desc: "Created competitive programming problems to evaluate LLM reasoning and solution validity.",
+      descBullets: [
+        "Assessed LLM outputs for valid brute-force solutions while failing optimal approaches.",
+        "Submitted structured evaluations via Google Colab with problem analysis and response comparison.",
+        "Evaluated LLM responses from GitHub issues and PRs on algorithm optimization and security."
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Code Himalaya",
+      companylogo: require("./assets/images/Code-Himalaya logo.png"),
+      date: "December 2024 – March 2025",
+      desc: "API development for TrustAML, an AML/CFT solution for banks and financial institutions.",
+      descBullets: [
+        "Deployed JavaScript and Python applications on bank infrastructure.",
+        "Resolved vulnerabilities identified during VAPT, strengthening application security.",
+        "Mentored junior developers and conducted code reviews."
+      ]
+    },
+    {
+      role: "Python Developer, DevOps Engineer",
+      company: "Vidhypro",
+      companylogo: require("./assets/images/vidhy pro.jpg"),
+      date: "September 2022 – December 2024",
+      desc: "Architected JWT-based RBAC system for multi-tenant ERP solution using Django.",
+      descBullets: [
+        "Managed VPC/VPS services hosting Python and JavaScript applications.",
+        "Built CI/CD pipelines using Docker, Nginx, Apache, Jenkins, and Git.",
+        "Implemented OWASP security standards, reducing security breaches by 50%.",
+        "Integrated Grafana, cAdvisor, and Prometheus for real-time monitoring."
+      ]
+    },
+    {
+      role: "Django & Flask Developer (Contract)",
+      company: "Supercomm IT",
+      companylogo: require("./assets/images/upwork.png"),
+      date: "January 2023 – May 2023",
+      desc: "Migrated codebase from Flask to Django, enhancing scalability and performance.",
+      descBullets: [
+        "Resolved race conditions with security and database teams.",
+        "Implemented third-party API integrations to extend functionality."
+      ]
+    },
+    {
+      role: "Remote Backend Developer (Contract)",
+      company: "Tech Himalayan",
       companylogo: require("./assets/images/techhimalaya.png"),
       date: "2022 – January 2023",
-      desc: "RESTful API development using Django Rest Framework",
+      desc: "Created RESTful APIs for an all-in-one sports application.",
       descBullets: [
-        "Git hooks integration",
-        "Integration ",
-        "Docker Compose and AWS deployment",
-        "Writing API test cases"
+        "Designed databases optimized for the business model.",
+        "Managed CI/CD pipelines for seamless software delivery.",
+        "Developed test cases and assisted React & Flutter integrations."
       ]
     },
     {
-      role: "Web Developer",
-      company: "Fiverr, Upwork",
+      role: "Freelance Web Developer",
+      company: "Fiverr & Upwork",
       companylogo: require("./assets/images/upwork.png"),
-      date: "June 2020 – 2023",
-      desc: "Customized, scalable and secure web application design and development."
+      date: "2021 – 2024",
+      desc: "Developed AI-powered HRMS and CRM systems with custom web applications."
     }
   ]
 };
@@ -212,8 +262,41 @@ const openSource = {
 
 const bigProjects = {
   title: "My Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "PERSONAL SAAS APPLICATIONS AND COMPANIES I'VE HELPED BUILD",
   projects: [
+    {
+      image: require("./assets/images/ally dashboard.png"),
+      projectName: "Ally Solutions Dashboard",
+      projectDesc: "Voice and chat analytics dashboard for AI-powered customer interactions",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://allysolutions.ai/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/creator crush dashboard.png"),
+      projectName: "CreatorCrush Founder",
+      projectDesc: "Tinder like Platform for connecting creators and brands",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://creatorcrush.digital/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tastymonials dashboard.png"),
+      projectName: "TastyMonials Founder",
+      projectDesc: "Testimonial collection and management platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.tastymonials.digital/"
+        }
+      ]
+    },
     {
       image: require("./assets/images/providhy.png"),
       projectName: "Providhy ERP",
@@ -221,13 +304,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://iam.asiansuppliers.com.np/"
+          url: "https://providhy.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/dblegal.png"),
+      image: require("./assets/images/DBLegal.png"),
       projectName: "DBLegal CRM",
       projectDesc: "Customer Relationship Management System",
       footerLink: [
@@ -429,7 +512,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "atit_tweets", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
